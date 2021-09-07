@@ -1,0 +1,38 @@
+{
+  "name": "greeep",
+  "version": "1.0.0",
+  "description": "This is a Grep-like application.",
+  "main": "index.js",
+  "bin": {
+    "greeep": "index.js"
+  },
+  "scripts": {
+    "test": "greeep -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiyu-tech/greeep.git"
+  },
+  "keywords": [
+    "greeep"
+  ],
+  "author": "kaiyu-tech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaiyu-tech/greeep/issues"
+  },
+  "homepage": "https://github.com/kaiyu-tech/greeep#readme",
+  "dependencies": {
+    "enquirer": "^2.3.6",
+    "ignore": "^5.1.8",
+    "minimist": "^1.2.5",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  }
+}
