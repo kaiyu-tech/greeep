@@ -77,7 +77,7 @@ class Prompt {
 
   if (option._.length === 0) {
     if (option.v) {
-      console.log('1.0.0')
+      console.log('1.0.6')
     } else {
       const db = new Database()
       if (option.a) {
