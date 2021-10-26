@@ -1,6 +1,6 @@
 {
   "name": "greeep",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "This is a Grep-like application.",
   "main": "index.js",
   "bin": {
